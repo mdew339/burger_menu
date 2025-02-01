@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'TT Lakes';
+    src: url("./fonts/TTLakes/TTLakes-Regular.woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url("./fonts/TTLakes/TTLakes-Medium.woff");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url("./fonts/TTLakes/TTLakes-Bold.woff");
+    font-weight: 700;
+}
+
+* {
+    font-family: "TT Lakes";
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 320px;
+    height: 100%;
+    box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2);
+    background: #fff;
+    min-height: 750px;
+    max-height: 1024px;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+}
+
+.header_menu_btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn_cross {
+margin: 16px 16px 0px 24px;
+}
+
+.btn_search {
+    margin: 16px 24px 0px 0px;
+}
+
+.header_menu_lnk {
+    margin: 24px 78px 0px 0px;
+}
+
+.section_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.list__container {
+
+}
+
+.list__in {
+    list-style: none;
+    margin-left: 24px;
+    position: relative;
+}
+
+.list__item {
+    margin-top: 32px;
+}
+
+.list__item__link {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #1b1c21;
+    margin-top: 32px;
+    position: relative;
+}
+
+.list__item__link::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 32px;
+    border-radius: 0px 10px 10px 0;
+    background-color: transparent;
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.list__item__link:hover::before {
+    background-color: #41F6D7;
+}
+
+.list__item__link:hover {
+    color: #7e7e82;
+}
+
+.foot_menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot_buttons {
+
+}
+
+.foot_btn_style {
+    border: none;
+    background-color: transparent;
+}
+
+.foot_buttons_call {
+    margin-left: 24px;
+}
+
+.foot_buttons_chat {
+    margin-left: 16px;
+}
+
+.foot_buttons_profile {
+    margin-left: 16px;
+}
+
+.foot_buttons_lnk {
+
+}
+
+.foot_contacs_email {
+    margin: 16px 0px 0px 24px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1b1c21;
+}
+
+.foot_contacs_tel {
+    margin: 12px 0px 0px 24px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    color: #1b1c21;
+}
+
+.foot_language {
+    display: flex;
+    gap: 7px;
+    margin: 40px 0px 32px 24px;
+}
+
+.foot_language_btn {
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.foot_language_btn:hover {
+    color: #7e7e82;
+}
+
+.foot_language_btn:active {
+    filter: brightness(0.5);
+}
