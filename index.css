@@ -51,6 +51,14 @@ html {
     cursor: pointer;
 }
 
+.header_menu_btn:hover {
+    filter: brightness(0.9);
+}
+
+.header_menu_btn:active {
+    filter: brightness(1.2);
+}
+
 .btn_cross {
 margin: 16px 16px 0px 24px;
 }
@@ -61,6 +69,14 @@ margin: 16px 16px 0px 24px;
 
 .header_menu_lnk {
     margin: 24px 78px 0px 0px;
+}
+
+.header_menu_lnk:hover {
+    filter: brightness(0.9);
+}
+
+.header_menu_lnk:active {
+    filter: brightness(1.2);
 }
 
 .section_main {
@@ -119,13 +135,18 @@ margin: 16px 16px 0px 24px;
     flex-direction: column;
 }
 
-.foot_buttons {
-
-}
-
 .foot_btn_style {
     border: none;
     background-color: transparent;
+    cursor: pointer;
+}
+
+.foot_btn_style:hover {
+    filter: brightness(0.9);
+}
+
+.foot_btn_style:active {
+    filter: brightness(1.2);
 }
 
 .foot_buttons_call {
