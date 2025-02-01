@@ -86,10 +86,6 @@ margin: 16px 16px 0px 24px;
     height: 100%;
 }
 
-.list__container {
-
-}
-
 .list__in {
     list-style: none;
     margin-left: 24px;
@@ -159,10 +155,6 @@ margin: 16px 16px 0px 24px;
 
 .foot_buttons_profile {
     margin-left: 16px;
-}
-
-.foot_buttons_lnk {
-
 }
 
 .foot_contacs_email {
